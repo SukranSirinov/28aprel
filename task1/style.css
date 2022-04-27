@@ -1,0 +1,43 @@
+.col-4{
+    border-radius: 5px;
+    border-style: groove;
+    padding: 20px;
+    margin-top: 5px ;
+    
+}
+.col-4 img{
+    text-align: center;
+    margin: auto;
+    padding: 50px 5px 5px;
+    max-width: 100%;
+    box-sizing: border-box;
+  
+}
+.col-4 p{
+    text-align: center;
+}
+.col-4 span{
+    display: flex;
+    text-align: center;
+    margin-left: 100px;
+}
+.col-4 button{
+    margin-left: 115px;
+     color: rgb(197, 86, 86);
+}
+@media (max-width:1025px){
+    .col-4{
+        width: 50% !important;
+    }
+
+}
+@media(max-width:400px){
+    .col-4{
+        
+        width: 100% !important;
+    }
+    
+}
+.col-4 button:hover{
+background-color: red;
+}
