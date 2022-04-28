@@ -1,0 +1,28 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name:boxAnimation ;
+    margin: 80px;
+    animation-duration: 4s;
+    border-radius: 100px;
+     animation-iteration-count: 2;
+    
+}
+@keyframes boxAnimation{
+    0% {
+        
+        background-color:green;
+        border-radius: 100%;
+      }
+      50% {
+        transform: scale(2);
+
+        background-color:green;
+      }
+      100% {
+        
+        background-color:green;
+
+    }
+}
